@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0c111c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-table-cell,
+.ant-table-thead > tr > th.ant-table-cell {
+  background: #141c2f;
+  color: #fff;
+}
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border-bottom: 1px solid #586675;
+}
+.ant-table-wrapper .ant-table-thead > tr > th {
+  border: none;
+}
+.ant-table-thead {
+  padding-bottom: 10px;
+  background-color: #0c111c;
+}
+.ant-table-wrapper .ant-table-tbody > tr > td.ant-table-cell-row-hover,
+.ant-table-wrapper
+  .ant-table-tbody
+  > tr.ant-table-row-selected
+  > .ant-table-cell {
+  background: #253558 !important;
+}
+.ant-checkbox .ant-checkbox-inner {
+  background-color: transparent;
+}
+.ant-radio-wrapper {
+  color: white;
+}
+
+.ant-input,
+.ant-select .ant-select-selector {
+  background: linear-gradient(to top, #078dee6e 0%, #0d17278a 100%) !important;
+  border: none !important;
+  border-radius: 0 !important;
+  height: 36px !important;
+  color: #fff !important;
+}
+.ant-input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.gradient-border {
+  border: 1px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 50%,
+    rgba(153, 153, 153, 0) 100%
+  );
+  border-image-slice: 1;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+}
+.ant-tabs .ant-tabs-tab {
+  color: #ffffff78;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.ant-tabs-nav::before {
+  border-bottom: none !important;
+}
+.ant-drawer {
+  width: 550px;
+  margin-left: -220px;
+  margin-top: 40px;
+}
+.ant-drawer-header {
+  position: absolute;
+  border: none !important;
+  right: -25px;
+  top: -10px;
+}
+.ant-drawer-content {
+  backdrop-filter: blur(8px);
+  background-color: rgba(16, 29, 61, 0.5) !important;
+}
+.ant-drawer-close {
+  color: white !important;
+}
+.ant-tabs-ink-bar {
+  display: none !important;
+}
+.menu-icons svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.custom-modal .ant-modal-content {
+  background: #253558 !important;
+  color: white; /* Optional: change text color */
+}
+
+.custom-modal .ant-modal-title,
+.custom-modal .ant-modal-body,
+.custom-modal .ant-modal-footer {
+  color: white;
+}
+
+.ant-modal .ant-modal-header {
+  background: none !important;
+  color: white;
+}
+
+.ant-modal .ant-modal-close {
+  color: white;
+}
+.ant-checkbox-wrapper {
+  color: white;
+}
+
+/* Increase tab height, padding, font size */
+.ant-tabs-tab-active {
+  padding: 12px 24px !important;
+  font-size: 16px !important;
+  background-color: #078dee !important;
+  color: #fff !important;
+  margin-right: 8px;
+}
+.ant-tabs-nav-list {
+  justify-content: space-between;
+  width: 100%;
+}
+.ant-tabs-tab {
+  width: 45%;
+  text-align: center;
+}
+.ant-tabs-tabpane {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}
