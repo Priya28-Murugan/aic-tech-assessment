@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/aic-tech-assessment/static/css/main.3bcd2e32.css",
+    "main.js": "/aic-tech-assessment/static/js/main.a30fd029.js",
+    "static/js/453.12365787.chunk.js": "/aic-tech-assessment/static/js/453.12365787.chunk.js",
+    "index.html": "/aic-tech-assessment/index.html",
+    "main.3bcd2e32.css.map": "/aic-tech-assessment/static/css/main.3bcd2e32.css.map",
+    "main.a30fd029.js.map": "/aic-tech-assessment/static/js/main.a30fd029.js.map",
+    "453.12365787.chunk.js.map": "/aic-tech-assessment/static/js/453.12365787.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bcd2e32.css",
+    "static/js/main.a30fd029.js"
+  ]
+}
